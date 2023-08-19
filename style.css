@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+}
+.list{
+    display: flex;
+}
+.img img{
+    height: 40px;
+    width: 40px;
+}
+.list li{
+    list-style: none;
+    margin: 20px;
+    padding: 20px;
+}
+.btn{
+    height: 20px;
+    width: 50px;
+}
