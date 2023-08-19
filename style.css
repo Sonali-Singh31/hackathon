@@ -1,19 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Merriweather:wght@300&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;1,6..12,200&family=Oswald:wght@300&family=Roboto+Condensed:ital,wght@0,400;1,300&family=Roboto+Mono:ital,wght@0,100;0,200;1,200&family=Victor+Mono:ital,wght@0,200;0,700;1,200;1,700&display=swap');
+
+body{
+    background-color: rgb(3, 5, 32);
+    color: white;
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Nunito Sans', sans-serif;
+}
 .navbar{
     display: flex;
+    justify-content: center;
+    background: black;
+    color: white;
+    height: 60px;
+    height: 90px;
+    
+    
 }
 .list{
     display: flex;
 }
 .img img{
-    height: 40px;
-    width: 40px;
+    margin: 15px;
+    height: 60px;
+    width: 60px;
+    
 }
 .list li{
+    padding: 5px;
     list-style: none;
-    margin: 20px;
-    padding: 20px;
+    margin: 0px 40px;
+    font-size: 25px;
+    color: white;
+    /* padding: 20px; */
+} 
+.list li a{
+    height: 20px;
+    width: 60px;
+    color: white;
+    text-decoration: none;
+}
+.list li a:hover{
+    background-color: rgb(14, 14, 46);
+    border: 2px solid black;
+    border-radius: 5px;
+    color: blue;
+    font-size: 27px;
+    height: ;
+
 }
 .btn{
-    height: 20px;
-    width: 50px;
+    height: 30px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 20px 30px;
+    padding: 0px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #a77070;
+    cursor: pointer;
+    font-size: 18px;
 }
+.btn:hover{
+    height: 35px;
+    width: 105px;
+    background-color: rgb(150, 148, 148);
+    color: black;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.list2{
+    display: flex;
+    margin: 20px 10px;
+    padding: 10px;
+    font-size: 23px;
+}
+.list2 li{
+
+    margin: 20px;
+    color: white;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.list2 li:hover{
+    margin: 20px;
+    color: blue;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+}
+.dv{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 23px;
+}
+.para{
+    /* border: 2px solid black; */
+}
+.para h1{
+    font-size: 3.5rem;
+}
+.second{
+    display: flex;
+    justify-content: center;
+}
+.image{
+    height: 600px;
+    width: 500px;
+    background: url('https://images.pexels.com/photos/2475875/pexels-photo-2475875.jpeg?auto=compress&cs=tinysrgb&w=600') no-repeat center center/cover;
+}
+.box{
+    margin: 30px;
+    padding: 20px;
+    width: 500px;
+    height: 600px;
+}
+.btu{
+    margin: 10px;
+    display: flex;
+    justify-content: 150px;
+}
+ .btu .btn:hover{
+    height: 35px;
+    width: 105px;
+    background-color: rgb(150, 148, 148);
+    color: black;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.btu .btn{
+    height: 40px;
+    width: 135px;
+    border-radius: 8px;
+}
+.btu .btn:hover{
+    height: 40px;
+    width: 135px;
+    border-radius: 8px;
+}
+.btu button{
+    font-size: 16px;
+
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 7px 10px;
+    margin: 10px ;
+    background-color: rgb(148, 79, 79);
+}
+.image button{
+    
+    background-color: rgb(3, 5, 32);
+    color: white;
+    border-radius: 6px ;
+    padding: 15px;
+    margin: 10px;
+}
+
+.box3{
+    display: flex;
+    align-items: end;
+    /* justify-content: baseline; */
+}
+.box4 .sections p{
+    margin: 30px 45px;
+    font-size: 25px ;
+}
+.box4{
+    display: flex;
+}
+.sections{
+    width: 1100px;
+}
+.list3{
+    background: fixed;
+}
+.list3 li{
+    list-style:none; 
+
+    font-size: 20px;
+    margin:10px 10px ;
+    padding: 5px;
+}
+.list3 li a{
+    text-decoration: none;
+    color: white;
+}
+.list3 li a:hover{
+    text-decoration: underline;
+    color: blue;
+    font-size: 23x;
+}
+
